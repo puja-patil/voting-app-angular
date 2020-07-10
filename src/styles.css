@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.catbox {
+  width: 11em;
+  height: 11em;
+  background-color: #17a2b8;
+  margin: 1em;
+}
+.dogbox {
+  width: 11em;
+  height: 11em;
+  background-color: #d39e00;
+  margin: 1em;
+}
+
+.catbox h3,
+.dogbox h3 {
+  line-height: 6em;
+  text-align: center;
+}
+
+.catbox:hover,
+.dogbox:hover {
+  cursor: pointer;
+}
