@@ -1,5 +1,4 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { SharedServiceService } from 'src/app/services/shared-service.service';
 
 @Component({
   selector: 'app-voting-container',

@@ -9,9 +9,11 @@
   background-color: #d39e00;
   height: 100%;
   width: 50%;
+  transition: width 2s;
 }
 .cats {
   background-color: #17a2b8;
   height: 100%;
   width: 50%;
+  transition: width 2s;
 }

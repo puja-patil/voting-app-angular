@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { SharedServiceService } from 'src/app/services/shared-service.service';
 
 @Component({
   selector: 'app-bar-representation',
