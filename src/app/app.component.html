@@ -2,24 +2,9 @@
   <span class="navbar-brand h1">Vote for your pet</span>
 </nav>
 <div class="container-fluid">
-  <div class="row justify-content-center">
-    <div class="col-2">
-      <div class="catbox" (click)="voteForCat()">
-        <h3>Cat</h3>
-      </div>
-      <div class="row m-1 justify-content-center">
-        <h4>Feline votes :</h4>
-        <h4 id="catVotes">0</h4>
-      </div>
-    </div>
-    <div class="col-2">
-      <div class="dogbox" (click)="voteForDog()">
-        <h3>Dog</h3>
-      </div>
-      <div class="row m-1 justify-content-center">
-        <h4>Canine votes :</h4>
-        <h4 id="dogVotes">0</h4>
-      </div>
-    </div>
-  </div>
+  <app-voting-container
+    (cVotesVCEmitter)="bar.cVotes($event)"
+    (dVotesVCEmitter)="bar.dVotes($event)"
+  ></app-voting-container>
+  <app-bar-representation #bar></app-bar-representation>
 </div>

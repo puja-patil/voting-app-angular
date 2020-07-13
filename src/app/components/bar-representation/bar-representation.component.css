@@ -1,0 +1,17 @@
+.outer-rectangle {
+  height: 6em;
+  width: 100%;
+  margin-top: 5em;
+  margin-left: 1px;
+  background-color: #17a2b8;
+}
+.dogs {
+  background-color: #d39e00;
+  height: 100%;
+  width: 50%;
+}
+.cats {
+  background-color: #17a2b8;
+  height: 100%;
+  width: 50%;
+}

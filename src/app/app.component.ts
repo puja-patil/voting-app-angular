@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,17 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'voting-app';
-  voteForCat() {
-    var div = document.getElementById("catVotes");
-    console.log(div.innerHTML);
-    let val = Number.parseInt(div.innerHTML) + 1;
-    div.innerHTML = val.toString();
-  }
-  voteForDog() {
-    var div = document.getElementById("dogVotes");
-    console.log(div.innerHTML);
-    let val = Number.parseInt(div.innerHTML) + 1;
-    div.innerHTML = val.toString();
-  }
+  // cVotesAC: any;
+  // // @Output() catVotesAppO:EventEmitter<any> = new EventEmitter<any>();
+
+  // emittedCVotesFromVC(data) {
+  //   console.log("app ts--" + data);
+  //   this.cVotesAC = data;
+  // }
+
 }
